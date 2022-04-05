@@ -20,6 +20,6 @@ pip3 install -r requirements.txt
 ### Running the project
 This project can be run from the command line using the following commands:
 ```
-cd .../messi_kmeans/
+cd .../messi_shots_kmeans/
 python3 main.py
 ```
