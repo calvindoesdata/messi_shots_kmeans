@@ -28,7 +28,7 @@ class Plotter:
     def plot_scatter(self, x_coords, y_coords, plot_with_cmap, hue=None, colour_palette=None,
                      marker=None, s=0, edgecolor='black', color=None, legend=False, label='', zorder=1):
         """
-        This method defines scatter plots for fitting results of the K-Means model. 
+        This method defines scatter plots for fitting results of the K-Means model within the half-pitch plot template. 
         param: plot_with_cmap: boolean, indicates if the scatter plot should contain a colour map.
         """
         self.fig.set_size_inches(4, 6)
