@@ -9,7 +9,7 @@ class Data:
 
     def match_file_iterator(self):
         """
-        This function iterates through all StatsBomb match files in the specified directory and extracts match_ids
+        This method iterates through all StatsBomb match files in the specified directory and extracts match_ids
         :return:
             match_ids: list of match_ids for the event_file_iterator
         """
@@ -25,7 +25,7 @@ class Data:
 
     def shot_event_file_iterator(self, player_name):
         """
-        This function iterates through all StatsBomb match files in the specified directory and extracts the xy
+        This method iterates through all StatsBomb match files in the specified directory and extracts the xy
         coordinates of all shot locations by Lionel Messi.
         :return:
             shot_loc_xy_adjusted: list of xy coordinates for onward processing
