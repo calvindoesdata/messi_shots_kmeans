@@ -17,6 +17,13 @@ source my_venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
+### Accessing the code base
+The code base accessed locally by cloning the repository. After navigating to your local directory of choice, run the following in the command line:
+```
+git clone https://github.com/calvindoesdata/messi_shots_kmeans.git
+```
+Alternatively the project can be downloaded as a .zip from the repository home page by selecting 'Code' > 'Download ZIP'.
+
 ### Running the project
 This project can be run from the command line using the following commands:
 ```
