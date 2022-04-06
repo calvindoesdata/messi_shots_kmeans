@@ -15,6 +15,9 @@ class Plotter:
         plt.rcParams['text.color'] = 'white'
 
     def plot_inertia(self, x_values, y_values):
+        """
+        This method creates the line and scatter plots of inertia values for the elbow test. 
+        """
         self.fig = plt.figure()
         self.fig.set_size_inches(8, 6)
         plt.xticks(x_values)
@@ -24,6 +27,10 @@ class Plotter:
 
     def plot_scatter(self, x_coords, y_coords, plot_with_cmap, hue=None, colour_palette=None,
                      marker=None, s=0, edgecolor='black', color=None, legend=False, label='', zorder=1):
+        """
+        This method defines scatter plots for fitting results of the K-Means model. 
+        param: plot_with_cmap: boolean, indicates if the scatter plot should contain a colour map.
+        """
         self.fig.set_size_inches(4, 6)
         ax = self.fig.add_subplot(1, 1, 1)
         PitchPlotLayout().draw_half_pitch(axis=ax)
